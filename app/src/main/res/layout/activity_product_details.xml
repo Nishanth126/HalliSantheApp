@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFF8E7"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/detailsImage"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/detailsName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:id="@+id/detailsPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#6D4C41" />
+
+    <Button
+        android:id="@+id/checkStockBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Check Stock"
+        android:backgroundTint="#F57C00"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="20dp" />
+
+</LinearLayout>

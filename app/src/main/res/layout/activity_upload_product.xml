@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF8E7">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HalliSanthe Digital"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#6D4C41"
+            android:layout_gravity="center" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="#DDDDDD"
+            android:layout_marginTop="20dp" />
+
+        <Button
+            android:id="@+id/selectImageBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Image"
+            android:backgroundTint="#6D4C41"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="10dp" />
+
+        <EditText
+            android:id="@+id/nameEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Product Name"
+            android:layout_marginTop="10dp" />
+
+        <EditText
+            android:id="@+id/priceEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Product Price"
+            android:inputType="number"
+            android:layout_marginTop="10dp" />
+
+        <Button
+            android:id="@+id/uploadProductBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Upload Product"
+            android:backgroundTint="#FF9800"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="15dp" />
+
+    </LinearLayout>
+
+</ScrollView>
